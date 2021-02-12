@@ -3,7 +3,7 @@
     <div class="bg-image"></div>
     <div class="bg-text">
       <h1 class="title">Under construction</h1>
-      <p class="sub-title">I will back soon!</p>
+      <p class="sub-title">I will be back soon!</p>
     </div>
   </div>
 </template>
