@@ -9,6 +9,9 @@ layout: default
 ---
 
 <div class="contact">
+  <a href="mailto:{{ site.author.email }}" title="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
   <a href="https://www.github.com/{{ site.github_username }}" target="_blank" title="Github">
     <i class="fab fa-github"></i>
   </a>
@@ -21,8 +24,8 @@ layout: default
   <a href="{{ site.author.medium }}" target="_blank" title="Medium">
     <i class="fab fa-medium"></i>
   </a>
-  <a href="mailto:{{ site.author.email }}" title="Email">
-    <i class="fas fa-envelope"></i>
+  <a href="{{ site.author.buymecoffee }}" title="Buy Me Coffee" target="_blank">
+    <i class="fas fa-coffee"></i>
   </a>
   <a href="{{ site.welfin.url }}" target="_blank" title="welfin">
     <img class="welfin-icon" src="{{ site.welfin.icon }}" alt="welfin">
