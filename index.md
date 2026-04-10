@@ -18,6 +18,9 @@ layout: default
   <a href="{{ site.author.linkedin }}" target="_blank" title="LinkedIn">
     <i class="fab fa-linkedin"></i>
   </a>
+  <a href="{{ site.author.instagram }}" target="_blank" title="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
   <a href="{{ site.author.twitter }}" target="_blank" title="Twitter">
     <i class="fab fa-twitter"></i>
   </a>
