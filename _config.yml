@@ -1,13 +1,12 @@
-title: "Rizan's"
+title: "Rizan Wibisono - Code Wizard"
 description: >-
-  Rizan's personal website.
+  I'm a code wizard who loves the whole journey of creation, and now I'm focused on building personal products end-to-end.
 baseurl: ""
-url: "https://rizanw.github.io/rzndwb"
+url: "https://rzndwb.xyz"
 repository: rizanw/rzndwb
 github_username: rizanw
 author:
-  name: "Rizky Andre (Rizan) Wibisono"
-  position: "Code Wizard"
+  name: "Rizky Andre Wibisono"
   email: "rizkyandre.w@outlook.com"
   linkedin: "https://www.linkedin.com/in/rizan-wibisono/"
   instagram: "https://www.instagram.com/rzndwb"
@@ -18,3 +17,16 @@ author:
 welfin:
   url: "https://welfin.rzndwb.xyz"
   icon: "assets/images/welfin.webp"
+# Jekyll 3 replaces its default exclude list when this is set, so the defaults are repeated here.
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
