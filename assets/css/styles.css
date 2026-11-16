@@ -159,6 +159,33 @@ a.pill:hover { background: var(--card-hover); }
   padding: 2px 6px; border-radius: 4px; background: var(--chip-bg); color: var(--chip-text);
 }
 
+.chip.new { background: var(--card-hover); color: var(--text); box-shadow: inset 0 0 0 1px var(--border); font-size: 11px; letter-spacing: .06em; }
+
+/* ---------- featured project ---------- */
+.card.featured .head { font-size: 15px; }
+.card .install {
+  display: inline-block; margin: 0 0 10px; padding: 3px 8px;
+  font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--text); background: var(--bg);
+  border: 1px solid var(--border); border-radius: 6px;
+}
+
+.card .install:last-child { margin-bottom: 0; }
+
+/* ---------- announcement ---------- */
+.announce {
+  display: flex; align-items: center; gap: 10px;
+  margin: -4px 0 24px; padding: 8px 12px;
+  border: 1px solid var(--border); border-radius: 10px;
+  background: var(--card);
+  font-size: 13px; text-decoration: none;
+  transition: border-color .15s;
+}
+.announce b { font-weight: 600; }
+.announce:hover { background: var(--card-hover); border-color: var(--faint); }
+.announce-arrow { margin-left: auto; color: var(--faint); }
+.announce:hover .announce-arrow { color: var(--text); }
+
 /* ---------- rows (smaller projects, writing, experiments) ---------- */
 .rows { list-style: none; margin: 14px 0 0; padding: 0; }
 .rows li { border-bottom: 1px solid var(--border); }
